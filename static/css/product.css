@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#bajar {
+  padding-top: 6rem;
+  padding-left: 80px;
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.color {
+  color: #585858;
+  font-weight: 400;
+}
+
+.boton a {
+  color: #000;
+  font-weight: 600;
+  padding: 5px 30px;
+  border: 2px solid;
+}
+
+.boton {
+  position: relative;
+  top: 250px;
+}
+
+.iconos a {
+  color: #7d8985;
+  border: 1px solid #7d8985;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  float: right;
+  position: relative;
+  top: 165px;
+}
+
+.espacio {
+  position: relative;
+  left: 10px;
+}
+
+.compartir {
+  position: relative;
+  left: 350px;
+  top: 220px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.derecha {
+  float: right;
+}
+
+.border-1 {
+  border: 1px solid #f2f2f2;
+}
+
+footer {
+  background: #F2F2F2;
+  height: 105px;
+}
+/*# sourceMappingURL=product.css.map */
