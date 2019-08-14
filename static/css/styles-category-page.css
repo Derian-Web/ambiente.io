@@ -17,13 +17,12 @@
   overflow: hidden;
   border-radius: 10px;
   border: solid 1px #D8D8D8;
-  min-height: 10vw;
-  min-height: 100vw;
+  height: 100vw;
 }
 
 @media (min-width: 768px) {
   .pagina > div {
-    min-height: 30vw;
+    height: 35vw;
   }
 }
 
