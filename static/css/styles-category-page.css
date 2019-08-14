@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.pagina {
+  padding: 0px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pagina > div {
+  overflow: hidden;
+  border-radius: 10px;
+  border: solid 1px #D8D8D8;
+  min-height: 10vw;
+  min-height: 100vw;
+}
+
+@media (min-width: 768px) {
+  .pagina > div {
+    min-height: 30vw;
+  }
+}
+
+.pagina > div iframe {
+  /* height: 200px */
+  height: 50%;
+}
+
+.embedded {
+  height: 100%;
+  width: 100%;
+}
+
+#title {
+  padding: 100px 0px 15px 0px;
+}
+
+#title h2 {
+  font-size: 1.5rem;
+}
+
+.tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  /* height: 200px */
+  height: 50%;
+}
+
+.tarjeta button {
+  width: 100%;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=styles-category-page.css.map */

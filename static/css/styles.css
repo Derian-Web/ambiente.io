@@ -5,11 +5,20 @@
           box-sizing: border-box;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
+/* body
+    font-family: 'Open Sans', sans-serif */
+#logo {
+  width: 70px;
+  height: 70px;
 }
 
 header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0px 0px;
   text-align: left;
 }
@@ -35,7 +44,7 @@ header {
   width: 100%;
 }
 
-.container {
+.container2 {
   width: 95%;
   max-width: 1200px;
   display: -webkit-box;
@@ -94,10 +103,8 @@ img {
   height: 100px;
   width: 100%;
   background: #348F50;
-  /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-gradient(linear, left top, right top, from(#56B4D3), to(#348F50));
   background: linear-gradient(to right, #56B4D3, #348F50);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @-webkit-keyframes moverIzquierda {
