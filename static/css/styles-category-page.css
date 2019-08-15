@@ -40,11 +40,6 @@
   }
 }
 
-.pagina > div iframe {
-  /* height: 200px */
-  height: 50%;
-}
-
 .pagina > div img {
   width: 100%;
 }

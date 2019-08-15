@@ -58,7 +58,7 @@ header {
   margin: auto;
 }
 
-img {
+#portada {
   display: block;
   height: 450px;
   -o-object-fit: cover;
