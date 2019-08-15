@@ -1,3 +1,42 @@
+@media screen and (max-width: 800px) {
+  iframe {
+    width: 100%;
+    height: 400px;
+  }
+  .boton {
+    z-index: 10;
+  }
+  .boton a {
+    position: relative;
+    top: 200px;
+    left: 20px;
+  }
+  .iconos {
+    display: none;
+  }
+  #posicion {
+    position: relative;
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  iframe {
+    width: 100%;
+    height: 400px;
+  }
+  .boton {
+    z-index: 10;
+  }
+  .boton a {
+    position: relative;
+    top: 200px;
+  }
+  .iconos {
+    display: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -64,5 +103,10 @@
 footer {
   background: #F2F2F2;
   height: 105px;
+}
+
+.arriba {
+  position: relative;
+  top: -25px;
 }
 /*# sourceMappingURL=product.css.map */
