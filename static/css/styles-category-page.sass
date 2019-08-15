@@ -10,6 +10,14 @@
     margin: 0px
     padding: 15px
     box-sizing: border-box
+    .imagePage
+        height: 50%
+        overflow: auto
+        &::-webkit-scrollbar
+            width: 12px
+        &::-webkit-scrollbar-thumb
+            background: #D8D8D8
+            border-radius: 5px
     &>div
         overflow: hidden
         border-radius: 10px
@@ -17,9 +25,8 @@
         height: 100vw
         +md
             height: 35vw
-        iframe
-            /* height: 200px */
-            height: 50%
+        img
+            width: 100%
 .embedded
     height: 100%
     width: 100%
