@@ -8,12 +8,11 @@
 	border-color: white;
 	border-style: solid;
 	border-width: 10px;
-	 -webkit-transition: opacity 3s ease-in-out;
-  -moz-transition: opacity 1.5s ease-in-out;
-  -ms-transition: opacity 1.5s ease-in-out;
-  -o-transition: opacity 1.5s ease-in-out;
-  transition: opacity 1.5s ease-in-out;
-    
+	-webkit-transition: opacity 3s ease-in-out;
+  	-moz-transition: opacity 1.5s ease-in-out;
+  	-ms-transition: opacity 1.5s ease-in-out;
+  	-o-transition: opacity 1.5s ease-in-out;
+  	transition: opacity 1.5s ease-in-out;
 }
 
 .fondo-imagen::before{
@@ -32,8 +31,6 @@
 	background: linear-gradient(to right, #56B4D3, #348F50);
 	filter: alpha(opacity=50);
   	opacity: 0.8;
-	
-	
 }
 
 #bajar{
