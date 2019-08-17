@@ -184,4 +184,45 @@ header {
             transform: translate(0);
   }
 }
+@media screen and (max-width:800px){
+  .container2{
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+img{
+  width: 300px;
+  height: 100px;
+}
+.textos{
+    width: 100%;
+    text-align: center;
+}
+.textos h1{
+    font-size: 20px;
+}    
+}
+  
+}
+
+@media screen and (max-width:500px){
+  .container2{
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+.textos{
+    width: 100%;
+    text-align: center;
+}
+.textos h1{
+    font-size: 20px;
+}    
+}
+  
+}
 /*# sourceMappingURL=styles.css.map */
