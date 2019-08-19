@@ -31,25 +31,29 @@ fetch(urlApi)
         console.log(category);
         console.log("hola"+category.products[0].name);
         document.getElementById('tituloApi').innerHTML = '<h2>' + category.name + '</h2>';
+        var noItem= 0;
         category.products.forEach(elemento => {
-
+            
             var objeto = {
                 nombre: "nombre1",
                 desc: "descripcion1",
                 sitio: "product.html",
                 imagenRuta: "http://fundamentos.academlo.com/app/public/products/",
-                id: "0"
+                id: "0",
+                item: '0'
             };
             
             objeto.nombre = elemento.name;
             objeto.desc =  elemento.description;
             objeto.imagenRuta += elemento.image;
-            objeto.id = elemento.id;
+            objeto.id = uuidCategoria;
+            objeto.item = '' + noItem;
+            noItem++;
             sitios.push(objeto);
         });
         //console.log(sitios);
         sitios.forEach(element => {
-            document.getElementById('contenedorSitios').innerHTML += "<div class='col-md-4 pagina'><div><div class='imagePage'><img src='" + element.imagenRuta + "'></div><div class='tarjeta'><h4>" + element.nombre + "</h4><div><p>" + element.desc + "</p></div><button type='button' onclick=window.open('" + element.sitio + "?id="+element.id+"') class='btn btn-outline-dark'>Visit site</button></div></div></div>";
+            document.getElementById('contenedorSitios').innerHTML += "<div class='col-md-4 pagina'><div><div class='imagePage'><img src='" + element.imagenRuta + "'></div><div class='tarjeta'><h4>" + element.nombre + "</h4><div><p>" + element.desc + "</p></div><button type='button' onclick=window.open('" + element.sitio + "?uuid="+element.id+"&item="+element.item+"') class='btn btn-outline-dark'>Visit site</button></div></div></div>";
         });
     })
     .catch(error => {
