@@ -44,12 +44,12 @@ fetch(urlApi)
             objeto.nombre = elemento.name;
             objeto.desc =  elemento.description;
             objeto.imagenRuta += elemento.image;
-            objeto.id = elemento.id;
+            objeto.id = elemento.uuid;
             sitios.push(objeto);
         });
         //console.log(sitios);
         sitios.forEach(element => {
-            document.getElementById('contenedorSitios').innerHTML += "<div class='col-md-4 pagina'><div><div class='imagePage'><img src='" + element.imagenRuta + "'></div><div class='tarjeta'><h4>" + element.nombre + "</h4><div><p>" + element.desc + "</p></div><button type='button' onclick=window.open('" + element.sitio + "?id="+element.id+"') class='btn btn-outline-dark'>Visit site</button></div></div></div>";
+            document.getElementById('contenedorSitios').innerHTML += "<div class='col-md-4 pagina'><div><div class='imagePage'><img src='" + element.imagenRuta + "'></div><div class='tarjeta'><h4>" + element.nombre + "</h4><div><p>" + element.desc + "</p></div><button type='button' onclick=window.open('" + element.sitio + "?uuid="+element.id+"') class='btn btn-outline-dark'>Visit site</button></div></div></div>";
         });
     })
     .catch(error => {
