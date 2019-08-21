@@ -38,7 +38,7 @@ fetch(urlApi)
                 nombre: "nombre1",
                 desc: "descripcion1",
                 sitio: "product.html",
-                imagenRuta: "http://fundamentos.academlo.com/app/public/products/",
+                imagenRuta: "",
                 id: "0",
                 item: '0'
             };
