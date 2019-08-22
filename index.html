@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/styles.css">
-    <link rel="stylesheet" href="static/css/browse-categories.css">
+    <link rel="stylesheet" href="static/css/browse-cate.css">
     <link rel="stylesheet" href="static/css/styles-category-page.css">
     <link rel="stylesheet" href="static/css/styles-footer.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
@@ -23,13 +23,18 @@
             <a href="#">ADD A LISTING</a>
         </nav>
         <div class="container2">
-            <div class="textos">
-                <h1>ECO-AWARENESS</h1>
-                <h2>No tires basura mejor tira barrio</h2>
-                <a href="browse-categories.html">Browse Categories</a>
+            <div class="row">
+                <div class="textos col-md-4">
+                    <h1>ECO-AWARENESS</h1>
+                    <h2>No tires basura mejor tira barrio</h2>
+                    <a href="browse-categories.html">Browse Categories</a>
+                </div>
+                <div class="col-md-8">
+                    <img id="portada" src="static/img/img-1.png" alt="">
+                </div>
+                
             </div>
 
-            <img id="portada" src="static/img/img-1.png" alt="">
 
 
         </div>
@@ -55,55 +60,22 @@
             <i class="fas fa-search" style="padding:0;"></i>
         </div>
 
-        <div class="row d-flex justify-content-center" style="padding-top: 20px;">
-            <div class="col-md-3 fondo-imagen">
-                <div id="fondo">
-                    <i class="fas fa-bullhorn fa-3x" style="padding-top:5px;"></i>
-                    <h4 style="padding-top:40px;">Eco-system</h4>
-                    <h5>12 listing</h5>
-                </div>
 
-
-            </div>
-            <div class="col-md-3 fondo-imagen">
-                <i class="fas fa-bullhorn fa-3x" style="padding-top:5px;"></i>
-                <h4 style="padding-top:40px;">Eco-system</h4>
-                <h5 class="">12 listing</h5>
-            </div>
-            <div class="col-md-3 fondo-imagen">
-                <i class="fas fa-bullhorn fa-3x" style="padding-top:5px;"></i>
-                <h4 style="padding-top:40px;">Eco-system</h4>
-                <h5 class="">12 listing</h5>
-            </div>
-            <div class="col-md-3 fondo-imagen">
-                <i class="fas fa-bullhorn fa-3x" style="padding-top:5px;"></i>
-                <h4 style="padding-top:40px;">Eco-system</h4>
-                <h5 class="">12 listing</h5>
-            </div>
+        <div id="contenidoBrowse" class="row">
+            <!-- <div class="contenedorCate col-md-4 col-lg-3">
+                    <div class="cate">
+                        <div class="overl"></div>
+                        <div class="contenidoCate">
+                            <i id="bricono" class="fas fa-bullhorn"></i>
+                            <h4 id="brtitulo">Eco-system</h4>
+                            <h6 id="brdesc">12 listing</h6>
+                        </div>
+                    </div>
+                </div> -->
         </div>
 
-        <div class="row d-flex justify-content-center ">
-            <div class="col-md-3 fondo-imagen">
-                <i class="fas fa-bullhorn fa-3x" style="padding-top:5px;"></i>
-                <h4 style="padding-top:40px;">Eco-system</h4>
-                <h5 class="">12 listing</h5>
-            </div>
-            <div class="col-md-3 fondo-imagen">
-                <i class="fas fa-bullhorn fa-3x" style="padding-top:5px;"></i>
-                <h4 style="padding-top:40px;">Eco-system</h4>
-                <h5 class="">12 listing</h5>
-            </div>
-            <div class="col-md-3 fondo-imagen">
-                <i class="fas fa-bullhorn fa-3x" style="padding-top:5px;"></i>
-                <h4 style="padding-top:40px;">Eco-system</h4>
-                <h5 class="">12 listing</h5>
-            </div>
-            <div class="col-md-3 fondo-imagen">
-                <i class="fas fa-bullhorn fa-3x" style="padding-top:5px;"></i>
-                <h4 style="padding-top:40px;">Eco-system</h4>
-                <h5 class="">12 listing</h5>
-            </div>
-        </div>
+
+
     </div>
     <footer>
         <div>
@@ -117,7 +89,7 @@
 
     </footer>
     <script src="static/js/home.js"></script>
-     <script src="https://kit.fontawesome.com/effd4a3746.js"></script>
+    <script src="https://kit.fontawesome.com/effd4a3746.js"></script>
 </body>
 
 </html>
