@@ -38,7 +38,7 @@ function getCategories(){
     .then((res) =>{
         console.log(res);
         document.getElementById('descripcion').innerHTML = `<h3>${res.products[parseInt(item)].description}</h3>`;
-        document.getElementById('libro').innerHTML =  "<img src='"+"http://fundamentos.academlo.com/app/public/products/"+ res.products[parseInt(item)].image +"'>";
+        document.getElementById('libro').innerHTML =  "<img src='"+res.products[parseInt(item)].image +"'>";
         document.getElementById('title').innerHTML = `<h1>${res.products[parseInt(item)].name}</h1>`;
     })
     
