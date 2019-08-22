@@ -1,3 +1,39 @@
+@media screen and (max-width: 800px) {
+  .container2 #alto-img {
+    height: 300px;
+  }
+  .container2 #size {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #anchura {
+    width: 100%;
+  }
+  .container2 {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container2 #alto-img {
+    height: 300px;
+  }
+  #size {
+    font-size: 30px;
+    text-align: center;
+  }
+  #menu2 {
+    float: right;
+  }
+  #centrado {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -58,7 +94,7 @@ header {
   margin: auto;
 }
 
-#portada {
+.portada {
   display: block;
   height: 450px;
   -o-object-fit: cover;
