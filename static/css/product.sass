@@ -16,7 +16,7 @@
 .color
     color: #585858
     font-weight: 400
-    font-size: 10px
+    font-size: 1rem
     
 
 #bt
@@ -80,8 +80,12 @@ footer
         width: 100%
         border: solid 1px #f2f2f2
     height: 420px
-#descripcion
-    font-size: 20px
+    &::-webkit-scrollbar
+        width: 12px
+    &::-webkit-scrollbar-thumb
+        background: #D8D8D8
+        border-radius: 5px
+
 #espacio
     position: relative
     top: 15px
