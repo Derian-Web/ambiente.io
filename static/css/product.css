@@ -72,6 +72,12 @@
 }
 
 #bt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: -80px;
 }
 
@@ -92,12 +98,14 @@
   text-decoration: none;
 }
 
-#bt .iconn {
+.iconn {
   text-decoration: none;
   color: #585858;
   border: 1px solid #000000;
   border-radius: 50%;
   padding: 8px 12px;
+  width: 40px;
+  height: 40px;
 }
 
 .iconos a {
