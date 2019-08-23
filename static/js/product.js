@@ -40,6 +40,10 @@ function getCategories(){
         document.getElementById('descripcion').innerHTML = `<h3 class="color" id="descripcion">${res.products[parseInt(item)].description}</h3>`;
         document.getElementById('libro').innerHTML =  "<img src='"+res.products[parseInt(item)].image +"'>";
         document.getElementById('title').innerHTML = `<h1>${res.products[parseInt(item)].name}</h1>`;
+        document.getElementById('bt').innerHTML = `<button onclick=window.open('${res.products[parseInt(item)].url}') type="button" class="btn btn-dark" id="boton">Visit Website</button>
+        <a href="" id="compartir">Share</a>
+        <a href="" class="iconn" ><i class="fab fa-twitter"></i></a>
+        <a href="" class="iconn" id="face"><i class="fab fa-facebook-f"></i></a>`;
     })
     
 }
