@@ -72,14 +72,25 @@
 }
 
 #bt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
   margin-top: -80px;
 }
 
 #bt button {
-  background: #ffffff;
+  background: #fff;
   color: #000;
   font-weight: 600;
-  padding: 5px 30px;
+  height: 50px;
+  margin-right: 50px;
 }
 
 #bt a {
@@ -92,12 +103,14 @@
   text-decoration: none;
 }
 
-#bt .iconn {
+.iconn {
   text-decoration: none;
   color: #585858;
   border: 1px solid #000000;
   border-radius: 50%;
   padding: 8px 12px;
+  width: 40px;
+  height: 40px;
 }
 
 .iconos a {
